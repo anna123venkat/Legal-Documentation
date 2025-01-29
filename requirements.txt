@@ -1,0 +1,19 @@
+# Core dependencies
+torch
+transformers
+sentence-transformers
+faiss-cpu
+
+# Chainlit for interactive UI
+chainlit
+
+# Environment and configuration management
+python-dotenv
+
+# Data processing
+numpy
+pandas
+
+# Additional utilities
+tqdm
+scipy
