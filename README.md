@@ -1,4 +1,4 @@
-# Research Assistant LLAMA2
+# Offline Research Assistant
 
 This project is an offline research assistant powered by LLAMA2, utilizing FAISS for efficient document retrieval and natural language processing.
 
@@ -12,8 +12,8 @@ This project is an offline research assistant powered by LLAMA2, utilizing FAISS
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd Research-assistant-LLAMA2-main
+   git https://github.com/anna123venkat/Offline-Research-Assistant.git
+   cd Offline-Research-Assistant
    ```
 2. Install dependencies:
    ```bash
@@ -35,14 +35,42 @@ To start the research assistant:
 python a.py
 ```
 
-## File Structure
-- `ingest.py` - Processes documents into FAISS
-- `model.py` - Defines the ML model logic
-- `a.py` - Main script to run the assistant
-- `data/` - Folder for research documents
-- `vectorstore/` - FAISS vector database
-- `requirements.txt` - Dependencies list
+## Project Structure
+```
+.project_root/
+│── .chainlit/
+│   ├── config.toml
+│
+├── data/
+│   ├── 71763-gale-encyclopedia-of-...
+│
+├── docs/
+│   ├── flowchart.png
+│
+├── src/
+│   ├── .chainlit/
+│   ├── __pycache__/
+│   ├── a.py
+│   ├── ingest.py
+│   ├── model.py
+│
+├── vectorstore/db_faiss/
+│   ├── index.faiss
+│   ├── index.pkl
+│
+├── .env
+├── .gitattributes
+├── README.md
+```
 
-## License
-This project is licensed under the MIT License.
+## References
+- [FAISS - Facebook AI Similarity Search](https://faiss.ai/)
+- [LLAMA2 - Meta AI](https://ai.meta.com/llama/)
+- [Chainlit - Interactive LLM UI](https://github.com/Chainlit/chainlit)
+
+## Contributors
+
+- **[Prasanna Venkatesh S](https://github.com/anna123venkat)**
+- **[Naboth Demitrius]((https://github.com/demi2k-sudo))**
+- **[Dinesh Kumar]((https://github.com/sudoDinesh))**
 
