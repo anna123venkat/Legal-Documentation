@@ -2,6 +2,16 @@
 
 This project is an offline research assistant powered by LLAMA2, utilizing FAISS for efficient document retrieval and natural language processing.
 
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Ingest Data](#ingest-data)
+  - [Run the Assistant](#run-the-assistant)
+- [Project Structure](#project-structure)
+- [References](#references)
+- [Contributors](#contributors)
+
 ## Features
 - Offline research capabilities
 - FAISS-based vector storage for document search
