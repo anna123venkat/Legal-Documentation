@@ -71,6 +71,6 @@ python a.py
 ## Contributors
 
 - **[Prasanna Venkatesh S](https://github.com/anna123venkat)**
-- **[Naboth Demitrius]((https://github.com/demi2k-sudo))**
-- **[Dinesh Kumar]((https://github.com/sudoDinesh))**
+- **[Naboth Demitrius](https://github.com/demi2k-sudo)**
+- **[Dinesh Kumar](https://github.com/sudoDinesh)**
 
