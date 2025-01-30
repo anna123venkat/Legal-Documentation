@@ -1,4 +1,4 @@
-# Offline Research Assistant
+# Legal Documentation
 
 This project is an offline research assistant powered by LLAMA2, utilizing FAISS for efficient document retrieval and natural language processing.
 
